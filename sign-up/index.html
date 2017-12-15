@@ -23,12 +23,12 @@
 			<form action="succsess.html">
 				<label for="email">Email</label>
 				<br>
-				<input type="email" name="email" placeholder="Email.." required>
+				<input type="email" name="email" placeholder="Email" required>
 				<br>
 				<br>
 				<label for="password">Password</label>
 				<br>
-				<input type="password" name="password" placeholder="Password.." required>
+				<input type="password" name="password" placeholder="Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Must contain uppercase letters, numbers and 8 letters minimum." required>
 				<br>
 				<input type="submit" value="Submit">
 			</form>
