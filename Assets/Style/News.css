@@ -1,0 +1,6 @@
+#news, #news2 {
+    border-image: url('https://openclipart.org/image/2400px/svg_to_png/222492/Decorative-Ornamental-Frame-Border-2.png') 50 round;
+    overflow-y: scroll;
+    height: 25vh;
+}
+

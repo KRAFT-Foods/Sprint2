@@ -1,0 +1,32 @@
+form {
+    margin: 5% auto;
+    width: 30%;
+    /*border: 1px solid #333;*/
+    padding: 16px 32px;
+}
+
+input:not([type=submit]) {
+    width: 100%;
+    margin: auto;
+    padding: 8px 16px;
+    /*border:  1px solid #333;*/
+    transition: .4s all ease;
+    clear: both;
+}
+
+input:not([type=submit]):focus {
+    outline: none;
+    background-color: rgba(0,0,0,.1);
+}
+
+[type=submit] {
+    margin: 5% auto;
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    /*width: 100%;*/
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+}
