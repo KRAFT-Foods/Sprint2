@@ -3,6 +3,11 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Shop</title>
+        <link rel="stylesheet" href="../Assets/Style/Master.css">
+        <link rel="stylesheet" href="../Assets/Style/Header.css">
+        <link rel="stylesheet" href="../Assets/Style/Nav.css">
+        <link rel="stylesheet" href="../Assets/Style/Aside.css">
+		<link rel="stylesheet" href="../Assets/Style/Shop.css">
 	</head>
 	<body>
 		<header>
@@ -10,24 +15,23 @@
 		</header>
 		<nav>
 			<ul>
-				<li><a href="/Sprint2/">Home</a></li>
-				<li><a href="/Sprint2/news/">News</a></li>
-				<li><a href="/Sprint2/shop/"><strong>Shop</strong></a></li>
-				<li><a href="/Sprint2/activity/">Activity</a></li>
-				<li><a href="/Sprint2/sign-up/">Sign up</a></li>
+				<li><a href="/Application/">Home</a></li>
+				<li><a href="/Application/news/">News</a></li>
+				<li><a href="/Application/shop/"><strong>Shop</strong></a></li>
+				<li><a href="/Application/activity/">Activity</a></li>
+				<li><a href="/Application/sign-up/">Sign up</a></li>
 			</ul>
 		</nav>
-		<hr>
 		<main>
 			<h1>Welcome</h1>
 			<p>This is <i>KRAFT's</i> club page.</p>
 
-			<table style="width:95%">
-				<tr>
+			<table id="items" style="width: 100%;">
+				<tr id="headings">
 					<th>Product</th>
 					<th>Size</th>
 					<th>Price</th>
-					<th> <th>
+					<th> </th>
 				</tr>
 				<tr>
 					<form action="cart.html">
@@ -39,7 +43,7 @@
 							<option value="43">43</option>
 							<option value="44">44</option>
 						</select></td>
-						<td>£250.00</td>
+						<td class="price">£250.00</td>
 						<td><input type="submit" value="Add to cart"></td>
 					</form>
 			  	</tr>
@@ -53,7 +57,7 @@
 							<option value="L">L</option>
 							<option value="XL">XL</option>
 						</select></td>
-						<td>£100:00</td>
+						<td class="price">£100.00</td>
 						<td><input type="submit" value="Add to cart"></td>
 					</form>
 			  	</tr>
@@ -67,7 +71,7 @@
 							<option value="L">L</option>
 							<option value="XL">XL</option>
 						</select></td>
-						<td>£200:00</td>
+						<td class="price">£200.00</td>
 						<td><input type="submit" value="Add to cart"></td>
 					</form>
 				</tr>
