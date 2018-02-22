@@ -1,5 +1,5 @@
 Treshold:
-1. Set foreground and background color 4 ways
+1. Set foreground and background color 4 ways   -   Aside.css
 2. Demonstrate 3 ways of sizing text
 3. Show use of web safe font styles
 4. Utilise 4 different CSS selectors
@@ -8,12 +8,12 @@ Treshold:
 
 Better
 1. Styling links            -   Nav.css
-2. Advances box styling     -
-3. List styling             -
-4. Table styling            -
-5. Form styling             -
-6. Examples of positioning  -
-7. Fallback methods         -
+2. Advances box styling     -   Aside.css + News.css
+3. List styling             -   Nav.css
+4. Table styling            -   Shop.css
+5. Form styling             -   Shop.css
+6. Examples of positioning  -   Aside.css + Signup.css + Master.css
+7. Fallback methods         -   Master.css
 
 Best
 1. Attribute selectors
