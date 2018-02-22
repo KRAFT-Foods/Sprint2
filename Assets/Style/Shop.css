@@ -25,3 +25,33 @@
 #items [type=submit]:hover, #items select {
     cursor: pointer;
 }
+
+
+/* Best Task 4, 3 methods to set box visbility, including use of display property. */
+
+.hide {
+     visibility: hidden;
+}
+
+.hide2 {
+    opacity: 0;
+}
+
+.hide3 {
+    display: none;
+
+
+/*
+Best Task 1, Use of equality and existense attribute selectors
+*/
+
+div[lang="en"] {
+    font-style: italic;   
+  
+}
+
+aside[class="advertisement"] {
+    font-style: bold;
+    
+}
+    
