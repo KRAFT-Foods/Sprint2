@@ -25,3 +25,12 @@
 #items [type=submit]:hover, #items select {
     cursor: pointer;
 }
+
+
+/*
+Use of equality attribute selector
+*/
+
+div[lang="en"] {
+    font-style: italic;   
+}
