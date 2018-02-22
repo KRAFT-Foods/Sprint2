@@ -1,0 +1,73 @@
+<html>
+<head>
+<style>
+p.fourth {border-style: dotted;}
+div[class*="line"] {
+    background: #ffff00;
+}
+* {
+    background-color: AliceBlue;
+#a{
+background-color: yellow;
+}
+
+#b{
+background-color: red;
+}
+
+#c{
+background-color: green;
+}
+
+
+div.a {
+    font-size: 15px;
+}
+
+div.b {
+    font-size: large;
+}
+
+div.c {
+    font-size: 150%;
+}
+{
+ margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+div {
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 100px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+    padding-left: 160px;
+}
+div {
+    height: 200px;
+    width: 50%;
+    background-color: darkblue;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Our Products</h1>
+
+<div id="a">*Hoodie*</div>
+
+<div id="b">*Tracksuit*</div>
+
+<div id="c">*Tops*</div>
+
+<div class="first line">****Buy our great products****</div>
+<div class="second line">****Cheap but durable products****</div>
+<div class="third ">****High quaility materials****</div>
+<p class="fourth">Very nice products.
+</p>
+
+</body>
+</html>
