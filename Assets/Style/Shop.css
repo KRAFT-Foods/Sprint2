@@ -27,7 +27,7 @@
 }
 
 
-/* 3 methods to set box visbility, including use of display property. */
+/* Best Task 4, 3 methods to set box visbility, including use of display property. */
 
 .hide {
      visibility: hidden;
@@ -42,7 +42,7 @@
 
 
 /*
-Use of equality attribute selector
+Best Task 1, Use of equality and existense attribute selectors
 */
 
 div[lang="en"] {
@@ -50,3 +50,8 @@ div[lang="en"] {
   
 }
 
+aside[class="advertisement"] {
+    font-style: bold;
+    
+}
+    
