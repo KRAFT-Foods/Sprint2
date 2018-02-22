@@ -40,17 +40,17 @@
 .hide3 {
     display: none;
 
-}
+
 /*
 Best Task 1, Use of equality and existense attribute selectors
 */
-
+/* Equality */
 div[lang="en"] {
     font-style: italic;   
   
 }
-
-aside[class="advertisement"] {
+/* Existence */
+aside[class~="advertisement"] {
     font-style: bold;
     
 }
