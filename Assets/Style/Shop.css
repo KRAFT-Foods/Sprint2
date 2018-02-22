@@ -25,3 +25,17 @@
 #items [type=submit]:hover, #items select {
     cursor: pointer;
 }
+
+/* 3 methods to set box visbility, including use of display property. */
+
+.hide {
+     visibility: hidden;
+}
+
+.hide2 {
+    opacity: 0;
+}
+
+.hide3 {
+    display: none;
+}
