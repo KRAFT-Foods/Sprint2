@@ -27,10 +27,26 @@
 }
 
 
+/* 3 methods to set box visbility, including use of display property. */
+
+.hide {
+     visibility: hidden;
+}
+
+.hide2 {
+    opacity: 0;
+}
+
+.hide3 {
+    display: none;
+
+
 /*
 Use of equality attribute selector
 */
 
 div[lang="en"] {
     font-style: italic;   
+  
 }
+
