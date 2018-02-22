@@ -26,6 +26,7 @@
     cursor: pointer;
 }
 
+
 /* 3 methods to set box visbility, including use of display property. */
 
 .hide {
@@ -38,4 +39,14 @@
 
 .hide3 {
     display: none;
+
+
+/*
+Use of equality attribute selector
+*/
+
+div[lang="en"] {
+    font-style: italic;   
+  
 }
+
